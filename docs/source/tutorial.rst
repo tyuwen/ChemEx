@@ -86,16 +86,6 @@ Experiment files
 The experiment files (indicated with ``-e``) contain information such as the name and 
 Larmor frequency etc., it typically looks like this:
 
-.. highlight:: toml
-
-.. code-block:: toml
-
-    [data]
-    h_larmor_freq = 1000.0
-    sample = "test"
-
-Test
-
 .. literalinclude:: experiment.toml
     :language: toml
 
