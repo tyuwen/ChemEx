@@ -1,0 +1,23 @@
+# Python bytecode
+*.pyc
+
+# vim swap files
+*.swp
+*.*~
+
+# Documentation intermediates
+docs/source/reference/generated
+docs/build
+
+# build directories
+build
+dist
+
+# data and sandbox
+data
+sandbox
+
+#Eclipse PyDev
+.project
+.pydevproject
+*.prefs

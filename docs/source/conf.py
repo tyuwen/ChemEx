@@ -17,12 +17,13 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'ChemEx'
-copyright = '2020, Tairan Yuwen'
-author = 'Tairan Yuwen'
+project = u'ChemEx'
+copyright = u'2020, Tairan Yuwen'
+author = u'Tairan Yuwen'
 
 # The full version, including alpha/beta/rc tags
-release = '0.0.1'
+version = '0.0.1'
+release = version
 
 
 # -- General configuration ---------------------------------------------------
@@ -30,7 +31,8 @@ release = '0.0.1'
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['recommonmark']
+extensions = ['sphinx.ext.autodoc', 'sphinx.ext.mathjax', 'numpydoc', 
+'sphinx.ext.autosummary', 'recommonmark']
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -53,5 +55,13 @@ html_theme = 'sphinx_rtd_theme'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+# The suffix of source filenames.
+source_suffix = '.rst'
+
 # The master toctree document.
 master_doc = 'index'
+
+# The name of the Pygments (syntax highlighting) style to use.
+pygments_style = 'sphinx'
+
+today_fmt = '%B %d, %Y'

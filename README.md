@@ -1,37 +1,49 @@
-## Welcome to GitHub Pages
+# ChemEx
 
-You can use the [editor on GitHub](https://github.com/tyuwen/ChemEx/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[![Build Status](https://travis-ci.org/gbouvignies/ChemEx.svg?branch=develop)](https://travis-ci.org/gbouvignies/ChemEx)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/da6be0c1863c4655b1ee15006bc90f36)](https://app.codacy.com/app/gbouvignies/chemex?utm_source=github.com&utm_medium=referral&utm_content=gbouvignies/chemex&utm_campaign=Badge_Grade_Dashboard)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/ambv/black)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Overview
 
-### Markdown
+ChemEx is an analysis program for chemical exchange detected by NMR.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+It is designed to take almost any kind of NMR data to aid the analysis,
+but the principle techniques are CPMG relaxation dispersion and Chemical
+Exchange Saturation Transfer.
 
-```markdown
-Syntax highlighted code block
+## Installation
 
-# Header 1
-## Header 2
-### Header 3
+The easiest way to install `chemex` is via [conda](http://conda.pydata.org):
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```bash
+conda install -c conda-forge chemex
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+If your version of python is less than 3.5, you can also install `chemex` in a separate conda environment enforcing the use of python 3.7:
 
-### Jekyll Themes
+```bash
+conda create -c conda-forge -n chemex python=3.7 chemex
+conda activate chemex
+```
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/tyuwen/ChemEx/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+`chemex` is also available via the [Python package index](https://pypi.python.org/pypi/chemex) using `pip`:
 
-### Support or Contact
+```bash
+pip install chemex
+```
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+The development version can be installed directly from github via `pip`:
+
+```bash
+pip install git+https://github.com/gbouvignies/chemex.git
+```
+
+## Dependencies
+
+- [Python>=3.5](https://www.python.org/downloads/)
+- [SciPy>=1.0](https://www.scipy.org/install.html)
+- [NumPy>=1.0](https://www.scipy.org/scipylib/download.html)
+- [Matplotlib>=2.0](http://matplotlib.org/users/installing.html)
+- [LmFit>=0.9.11](https://lmfit.github.io/lmfit-py/)
+- [ASTEVAL>=0.9.11](https://github.com/newville/asteval)

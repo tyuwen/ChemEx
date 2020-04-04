@@ -1,0 +1,25 @@
+[experiment]
+name         = "dcest_15n"
+time_t1      = 0.2
+carrier      = 118.663
+b1_frq       = 20.0
+b1_inh_res   = 5
+sw           = 800.0
+pw90         = 36.2e-6
+
+[conditions]
+h_larmor_frq = 1000.3
+# sample = "G48A Fyn SH3"
+# temperature = 25.0
+
+[data]
+path = "../Data/800Hz/"
+error = "file"
+filter_offsets = [[0.0, 20.0]]
+profiles = [
+    ["F4N", "F4N-HN.out"],
+    ["E5N", "E5N-HN.out"],
+    ["A6N", "A6N-HN.out"],
+    ["L7N", "L7N-HN.out"],
+    ["Y8N", "Y8N-HN.out"],
+]
