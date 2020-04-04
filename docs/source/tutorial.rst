@@ -148,6 +148,9 @@ set suitable initial parameters to avoid being trapped in a local minimum.
 Method files
 ------------
 
+The method file (indicated with ``-m``) contain the fitting methods to be used 
+during the fitting process, which typically looks like this:
+
 Kinetic models
 --------------
 
