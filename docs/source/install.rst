@@ -21,37 +21,29 @@ which provides these packages, such as
 
 .. _ChemEx: https://github.com/gbouvignies/ChemEx
 
+.. highlight:: console
+
 Installation
 ------------
 The easiest way to install `ChemEx`_ is via `conda <https://conda.io/en/latest/>`_ from the command 
-line (indicated with ``$``):
-
-.. code-block:: console
+line (indicated with ``$``)::
 
     $ conda install -c conda-forge chemex
 
 Note that there is minimum version of Python required, if your version of Python is less
-than 3.7, you can install `ChemEx`_ in a separate conda environment enforcing the use of Python 3.7:
-
-.. code-block:: console
+than 3.7, you can install `ChemEx`_ in a separate conda environment enforcing the use of Python 3.7::
 
     $ conda create -c conda-forge -n chemex python=3.7 chemex
     $ conda activate chemex
 
-`ChemEx`_ is also available via the Python package index using :command:`pip`:
-
-.. code-block:: console
+`ChemEx`_ is also available via the Python package index using :command:`pip`::
 
     $ pip install chemex
 
-The development version can be installed directly from `github <https://github.com>`_ via :command:`pip`:
-
-.. code-block:: console
+The development version can be installed directly from `github <https://github.com>`_ via :command:`pip`::
 
     $ pip install git+https://github.com/gbouvignies/chemex.git
 
-Another option (not recommended) is to extract the downloaded .tar.gz or .zip file and run:
-
-.. code-block:: console
+Another option (not recommended) is to extract the downloaded .tar.gz or .zip file and run::
 
     $ python setup.py install
