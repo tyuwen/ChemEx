@@ -24,9 +24,8 @@ fitting is to locate the sets of parameters that reaches :math:`\chi^2`
 minimum, which is carried out with Levenberg-Marquardt non-linear optimization
 with `LMfit <https://lmfit.github.io/lmfit-py/>`_ module. Unlike 
 most other programs for chemical exchange data analysis, ChemEx does not 
-rely on analytical equations therefore most experimental details can be 
-taken into account (e.g. finite pulse width, off-resonance effects etc.), 
-which leads to more accurate fitting results.
+rely on analytical equations therefore most experimental details (e.g. 
+finite pulse width, off-resonance effects etc.) can be taken into account.
 
 
 Running ChemEx
