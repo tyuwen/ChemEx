@@ -10,12 +10,11 @@ ChemEx Documentation
 :Date: |today|
 
 .. toctree::
-    :maxdepth: 2
+   :maxdepth: 3
 
-    install
-    tutorial
-    modules/index
-    tools/index
-    devel/index
-
+   install
+   tutorial
+   modules/index
+   tools/index
+   devel/index
 

@@ -3,8 +3,10 @@
 cpmg_13c_ip
 ===========
 
-CPMG experiments for pure in-phase 13C magnetization. Reference: 
+.. highlight:: none
 
-Certain parameters specific for this experiment:
+.. automodule:: chemex.experiments.cpmg_13c_ip
 
-See **CPMG_13C_IP** under **examples/Experiments** as an example.
+.. highlight:: default
+
+See :file:`CPMG_13C_IP` under :file:`examples/Experiments` as an example.

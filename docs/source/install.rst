@@ -20,8 +20,6 @@ which provides these packages, such as
 `Anaconda <https://www.anaconda.com/distribution/>`_ or 
 `Intel Distribution for Python <https://software.intel.com/en-us/distribution-for-python>`_.
 
-.. _ChemEx: https://github.com/gbouvignies/ChemEx
-
 .. highlight:: console
 
 Installation
@@ -48,3 +46,5 @@ The development version can be installed directly from `github <https://github.c
 Another option (not recommended) is to extract the downloaded .tar.gz or .zip file and run::
 
     $ python setup.py install
+
+.. _ChemEx: https://github.com/gbouvignies/ChemEx/

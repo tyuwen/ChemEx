@@ -7,11 +7,12 @@ CPMG experiments
 ----------------
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     cpmg_13c_ip
     cpmg_13co_ap
-
+    cpmg_15n_ip
+    cpmg_15n_ip_0013
 
 CEST experiments
 ----------------
@@ -19,7 +20,7 @@ CEST experiments
 .. toctree::
     :maxdepth: 1
     
-    cest
+    cest_13c
 
 
 DCEST/COS-CEST experiments
@@ -28,7 +29,7 @@ DCEST/COS-CEST experiments
 .. toctree::
     :maxdepth: 1
     
-    dcest
+    dcest_15n
 
 
 Relaxation experiments
@@ -37,7 +38,7 @@ Relaxation experiments
 .. toctree::
     :maxdepth: 1
     
-    relaxation
+    relaxation_nz
 
 
 Shift experiments
@@ -46,5 +47,5 @@ Shift experiments
 .. toctree::
     :maxdepth: 1
     
-    shift
+    shift_15n_sqmq
 

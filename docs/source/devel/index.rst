@@ -5,13 +5,13 @@ Developement Guide
 ==================
 
 This guide provides instructions for setting up an environment for developing
-nmrglue and an overview of the project layout and contribution process.
+chemex and an overview of the project layout and contribution process.
 
 
 Requirements
 ------------
 
-To create an environment for developing nmrglue the following must be installed
+To create an environment for developing chemex the following must be installed
 and available.
 
 * `Numpy <http://numpy.scipy.org>`_
@@ -37,7 +37,7 @@ distribution which provides these packages, such as
 available.
 
 Finally, other NMR software packages must be installed to process and convert 
-the test and example data.  These are not required for using nmrglue, but are
+the test and example data.  These are not required for using chemex, but are
 needed to verify its functionality and to run some of the examples.
 
 * `NMRPipe <http://spin.niddk.nih.gov/NMRPipe/>`_

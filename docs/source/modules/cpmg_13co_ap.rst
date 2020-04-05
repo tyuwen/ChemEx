@@ -3,6 +3,10 @@
 cpmg_13co_ap
 ============
 
-CPMG experiments for pure anti-phase cabonyl 13C magnetization. Reference: 
+.. highlight:: none
 
-Certain parameters specific for this experiment:
+.. automodule:: chemex.experiments.cpmg_13co_ap
+
+.. highlight:: default
+
+See :file:`CPMG_13CO_AP` under :file:`examples/Experiments` as an example.
